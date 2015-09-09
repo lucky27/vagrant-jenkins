@@ -1,6 +1,10 @@
 node default {
-  include jenkins
   include git
+  include firewall
+
+  class { 'jenkins' :
+    configure_firewall => true,
+  }
 
   jenkins::plugin {
     "greenballs" : ;

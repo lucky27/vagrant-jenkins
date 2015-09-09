@@ -1,7 +1,9 @@
 # vagrant-jenkins
-Vagrant VM (CentOS `6.5`) with latest stable Jenkins, provisioned via Puppet (`3.4.2`).
+Latest stable Jenkins running in a Vagrant VM (CentOS `7.0`), provisioned via Puppet (`4.2.1`).
 
-Also includes Git.
+A variety of Jenkins plugins are installed to provide `git` SCM support and the new Jenkins `workflow` plugin.
+
+If you don't need any of these plugins, just comment them out.
 
 # Pre-requisites
 
