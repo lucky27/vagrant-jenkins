@@ -1,7 +1,8 @@
 # vagrant-jenkins
 Latest stable Jenkins running in a Vagrant VM (CentOS `7.0`), provisioned via Puppet (`4.2.1`).
 
-A variety of Jenkins plugins are installed to provide `git` SCM support and the new Jenkins `workflow` plugin.
+A variety of Jenkins plugins are installed to provide `git` SCM support and the new Jenkins
+[Workflow plugin](https://github.com/jenkinsci/workflow-plugin).
 
 If you don't need any of these plugins, just comment them out.
 
